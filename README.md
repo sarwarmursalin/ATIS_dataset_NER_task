@@ -8,7 +8,7 @@ We employed below steps:
 5. Convert sentences and slot labels to sequences of IDs
 6. Convert slot labels to a one-hot encoded format, ensuring the index does not go out of bounds
 
-After defining the model and fitting ner_model,
+After defining the model and fitting ner_model, here I have used Bi-LSTm as my main Deep Learning Architecture.
 - Evaluate the model on the test data
 - Flatten the predictions and true labels, Initialize LabelEncoder and created the classification report
 - Finally extract return date and time funtion
